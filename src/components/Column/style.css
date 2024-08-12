@@ -1,0 +1,36 @@
+.Column {
+  width: 320px;
+  border: 1px solid #e1e4e8;
+  border-radius: 5px;
+  background-color: #f7f8fe;
+  padding: 10px 20px;
+  height: fit-content;
+}
+.Column__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.Column__item-count {
+  line-height: 30px;
+  width: 30px;
+  background-color: #5680f9;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 7px;
+  color: #fff;
+}
+.Column__text {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.Column__btn {
+  background-color: #5680f9;
+  color: #fff;
+  padding: 5px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
